@@ -1,7 +1,7 @@
 body {
   box-sizing: border-box;
   margin: 0;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 14px;
   color: #404040;
 }
@@ -18,7 +18,7 @@ header {
 }
 
 h1 {
-  font-family: 'Great Vibes', cursive;
+  font-family: "Great Vibes", cursive;
   font-size: 52px;
   color: #3493d5;
   margin: 10px 0;
@@ -67,7 +67,7 @@ main {
   margin: 0 auto 25px auto;
 }
 
-.description, .review-form {
+form {
   width: 450px;
   margin: 0 auto 50px auto;
 }
@@ -82,7 +82,7 @@ textarea {
   margin-bottom: 10px;
 }
 
-.description button, input[type="submit"] {
+form button[type="submit"] {
   border: none;
   font-size: 16px;
   font-weight: 600;
@@ -93,7 +93,7 @@ textarea {
   cursor: pointer;
 }
 
-.reviews li {
+#review-list li {
   background-color: #fff3a9;
   border-radius: 5px;
   padding: 20px;
